@@ -1,0 +1,105 @@
+{
+    "buildings": [
+        {
+            "id": 1,
+            "projectName": "Yangi Hayot",
+            "location": "Toshkent, Shayxontohur tumani",
+            "totalApartments": 120,
+            "availableApartments": 45,
+            "floors": 12,
+            "amenities": [
+                "Bolalar maydonchasi",
+                "Sport zali",
+                "Ochiq basseyn",
+                "Yashil maydon"
+            ],
+            "hasBasementGarage": true,
+            "floorsDetail": [
+                {
+                    "floorNumber": 12,
+                    "apartments": [
+                        {
+                            "number": 1201,
+                            "status": "available"
+                        },
+                        {
+                            "number": 1202,
+                            "status": "booked"
+                        }
+                    ]
+                },
+                {
+                    "floorNumber": 11,
+                    "apartments": [
+                        {
+                            "number": 1101,
+                            "status": "available"
+                        },
+                        {
+                            "number": 1102,
+                            "status": "available"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "projectName": "Osiyo Residence",
+            "location": "Samarqand, Qo‘shrabot ko‘chasi",
+            "totalApartments": 80,
+            "availableApartments": 20,
+            "floors": 9,
+            "amenities": [
+                "24/7 xavfsizlik",
+                "Padval garaj",
+                "Zamonaviy liftlar"
+            ],
+            "hasBasementGarage": true,
+            "floorsDetail": [
+                {
+                    "floorNumber": 9,
+                    "apartments": [
+                        {
+                            "number": 901,
+                            "status": "booked"
+                        },
+                        {
+                            "number": 902,
+                            "status": "available"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "projectName": "Bahor",
+            "location": "Toshkent shahri, Uysozlar tumani",
+            "totalApartments": 1184,
+            "availableApartments": 1170,
+            "floors": 9,
+            "amenities": [
+                "24/7 xavfsizlik",
+                "Padval garaj",
+                "Zamonaviy liftlar"
+            ],
+            "hasBasementGarage": true,
+            "floorsDetail": [
+                {
+                    "floorNumber": 9,
+                    "apartments": [
+                        {
+                            "number": 901,
+                            "status": "booked"
+                        },
+                        {
+                            "number": 902,
+                            "status": "available"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
